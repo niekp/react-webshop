@@ -28,8 +28,6 @@ class SignIn extends React.Component {
         } catch (error) {
             console.error('Error logging in', error);
         }
-
-        
     }
 
     handleChange = e => {
